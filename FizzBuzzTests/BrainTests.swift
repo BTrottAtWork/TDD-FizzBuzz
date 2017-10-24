@@ -45,4 +45,35 @@ class BrainTests: XCTestCase {
         let result = brain.isDivisibleByFifteen(number:12)
         XCTAssertFalse(result)
     }
+    
+    func testCheckReturnsFizzWhenGivenThree() {
+        let result = brain.check(number: 3)
+        XCTAssertEqual(result, "Fizz")
+    }
+    
+    func testCheckDoesNotReturnFizzWhenGivenFour() {
+        let result = brain.check(number: 4)
+        XCTAssertNotEqual(result, "Fizz")
+    }
+    
+    func testCheckReturnsBuzzWhenGivenFive() {
+        let result = brain.check(number: 5)
+        XCTAssertEqual(result, "Buzz")
+    }
+    
+    func testCheckDoesNotReturnBuzzWhenGivenSeven() {
+        let result = brain.check(number: 7)
+        XCTAssertNotEqual(result, "Buzz")
+    }
+    
+    func testCheckReturnsFizzBuzzWhenGivenFifteen() {
+        let result = brain.check(number: 15)
+        XCTAssertEqual(result, "FizzBuzz")
+    }
+    
+    func testCheckDoesNotReturnFizzBuzzWhenGivenSixteen() {
+        let result = brain.check(number: 16)
+        XCTAssertNotEqual(result, "FizzBuzz")
+    }
+    
 }
