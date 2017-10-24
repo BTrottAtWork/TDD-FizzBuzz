@@ -11,26 +11,24 @@ import XCTest
 
 class BrainTests: XCTestCase {
     
+    let brain = Brain()
+    
     func testIsDivisibleByThree() {
-        let brain = Brain()
         let result = brain.isDivisibleByThree(number: 3)
         XCTAssertTrue(result)
     }
     
     func testIsNotDivisibleByThree() {
-        let brain = Brain()
         let result =  brain.isDivisibleByThree(number: 4)
         XCTAssertFalse(result)
     }
     
     func testIsDivisibleByFive() {
-        let brain = Brain()
         let result = brain.isDivisibleByFive(number: 5);
         XCTAssertTrue(result);
     }
 
     func testIsNotDivisibleByFive() {
-        let brain = Brain()
         let result = brain.isDivisibleByFive(number: 4);
         XCTAssertFalse(result);
     }
