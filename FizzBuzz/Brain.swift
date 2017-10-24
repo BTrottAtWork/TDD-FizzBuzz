@@ -25,4 +25,16 @@ class Brain {
     func isDivisibleByFifteen(number: Int) -> Bool {
         return isDivisible(divisor: 15, number: number)
     }
+    
+    func check(number: Int) -> String {
+        if isDivisible(divisor: 15, number: number) {
+            return "FizzBuzz"
+        } else if isDivisible(divisor: 3, number: number) {
+            return "Fizz"
+        } else if isDivisible(divisor: 5, number: number) {
+            return "Buzz"
+        }
+
+        return "Blarg"
+    }
 }
