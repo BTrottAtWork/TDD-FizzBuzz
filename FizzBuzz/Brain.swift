@@ -10,15 +10,8 @@ import Foundation
 
 class Brain {
     
-    func isDivisibleByThree(number checkVal: Int) -> Bool{
-        return checkVal % 3 == 0
+    func isDivisible(divisor: Int, number: Int) -> Bool {
+        return divisor % number == 0
     }
-    
-    func isDivisibleByFive(number checkVal: Int) -> Bool {
-        return checkVal % 5 == 0;
-    }
-    
-    func isDivisibleByFifteen(number checkVal: Int) -> Bool {
-        return checkVal % 15 == 0;
-    }
+
 }
