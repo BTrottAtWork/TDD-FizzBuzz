@@ -24,12 +24,22 @@ class BrainTests: XCTestCase {
     }
     
     func testIsDivisibleByFive() {
-        let result = brain.isDivisibleByFive(number: 5);
+        let result = brain.isDivisibleByFive(number: 5)
         XCTAssertTrue(result);
     }
 
     func testIsNotDivisibleByFive() {
-        let result = brain.isDivisibleByFive(number: 4);
+        let result = brain.isDivisibleByFive(number: 4)
+        XCTAssertFalse(result);
+    }
+    
+    func testIsDivisibleByFifteen() {
+        let result = brain.isDivisibleByFifteen(number: 15)
+        XCTAssertTrue(result);
+    }
+    
+    func testIsNotDivisibleByFifteen() {
+        let result = brain.isDivisibleByFifteen(number: 12)
         XCTAssertFalse(result);
     }
 }
