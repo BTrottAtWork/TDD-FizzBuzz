@@ -27,6 +27,7 @@ class Brain {
     }
     
     func check(number: Int) -> String {
+        
         if isDivisible(divisor: 15, number: number) {
             return "FizzBuzz"
         } else if isDivisible(divisor: 3, number: number) {
@@ -35,6 +36,6 @@ class Brain {
             return "Buzz"
         }
 
-        return "Blarg"
+        return "\(number)"
     }
 }
