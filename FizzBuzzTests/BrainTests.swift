@@ -76,4 +76,12 @@ class BrainTests: XCTestCase {
         XCTAssertNotEqual(result, "FizzBuzz")
     }
     
-}
+    func testReturnsStringOneWhenGivenOne() {
+        let result = brain.check(number: 1)
+        XCTAssertEqual(result, "1")
+    }
+
+    func testReturnsStringNumberWhenGivenNonFizzBuzzNumber() {
+        let result = brain.check(number: 2)
+        XCTAssertEqual(result, "2")
+    }}
