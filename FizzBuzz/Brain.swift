@@ -11,7 +11,10 @@ import Foundation
 class Brain {
     
     func isDivisibleByThree(number checkVal: Int) -> Bool{
-        
         return checkVal % 3 == 0
+    }
+    
+    func isDivisibleByFive(number checkVal: Int) -> Bool {
+        return checkVal % 5 == 0;
     }
 }

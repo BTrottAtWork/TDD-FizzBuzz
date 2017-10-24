@@ -23,15 +23,15 @@ class BrainTests: XCTestCase {
         XCTAssertFalse(result)
     }
     
-//    func testIsDivisibleByFive() {
-//        let brain = Brain()
-//        let result = brain.isDivislbleByFive(5);
-//        XCTAssertTrue(result);
-//    }
-//    
-//    func testIsNotDivisibleByFive() {
-//        let brain = Brain()
-//        let result = brain.isDivislbleByFive(4);
-//        XCTAssertFalse(result);
-//    }
+    func testIsDivisibleByFive() {
+        let brain = Brain()
+        let result = brain.isDivisibleByFive(number: 5);
+        XCTAssertTrue(result);
+    }
+
+    func testIsNotDivisibleByFive() {
+        let brain = Brain()
+        let result = brain.isDivisibleByFive(number: 4);
+        XCTAssertFalse(result);
+    }
 }
