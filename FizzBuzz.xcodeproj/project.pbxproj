@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9965A9C1F9EEB8300725358 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9965A9B1F9EEB8300725358 /* Brain.swift */; };
 		B9965AA01F9EED3E00725358 /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9965A991F9EEA1800725358 /* BrainTests.swift */; };
+		B9965AA21F9FA21B00725358 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9965AA11F9FA21B00725358 /* Brain.swift */; };
+		B9965AA31F9FA26B00725358 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9965AA11F9FA21B00725358 /* Brain.swift */; };
 		B9AFBD2F1F9EE61200F7731C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFBD2E1F9EE61200F7731C /* AppDelegate.swift */; };
 		B9AFBD311F9EE61200F7731C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFBD301F9EE61200F7731C /* ViewController.swift */; };
 		B9AFBD341F9EE61200F7731C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AFBD321F9EE61200F7731C /* Main.storyboard */; };
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		B9965A981F9EEA1700725358 /* FizzBuzzTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FizzBuzzTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B9965A991F9EEA1800725358 /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
-		B9965A9B1F9EEB8300725358 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		B9965AA11F9FA21B00725358 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		B9AFBD2B1F9EE61200F7731C /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AFBD2E1F9EE61200F7731C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9AFBD301F9EE61200F7731C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +107,7 @@
 				B9AFBD351F9EE61200F7731C /* Assets.xcassets */,
 				B9AFBD371F9EE61200F7731C /* LaunchScreen.storyboard */,
 				B9AFBD3A1F9EE61200F7731C /* Info.plist */,
-				B9965A9B1F9EEB8300725358 /* Brain.swift */,
+				B9965AA11F9FA21B00725358 /* Brain.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -266,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9AFBD311F9EE61200F7731C /* ViewController.swift in Sources */,
-				B9965A9C1F9EEB8300725358 /* Brain.swift in Sources */,
+				B9965AA21F9FA21B00725358 /* Brain.swift in Sources */,
 				B9AFBD2F1F9EE61200F7731C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9965AA31F9FA26B00725358 /* Brain.swift in Sources */,
 				B9965AA01F9EED3E00725358 /* BrainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
