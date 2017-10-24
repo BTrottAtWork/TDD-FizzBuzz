@@ -32,4 +32,10 @@ class GameTests: XCTestCase {
         let result = game.play(move:"Fizz")
         XCTAssert(result)
     }
+    
+    func testIfFizzSelectedWhenScoreIsOneFalseIsReturned(){
+        game.score = 1
+        let result = game.play(move: "Fizz")
+        XCTAssert(result == false)
+    }
 }

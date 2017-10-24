@@ -16,7 +16,11 @@ class Game {
     }
     
     func play(move: String) -> Bool {
-        score += 1
-        return true
+        
+        if(Brain().check(number: score + 1) == move){
+            score += 1
+            return true
+        }
+        return false
     }
 }
